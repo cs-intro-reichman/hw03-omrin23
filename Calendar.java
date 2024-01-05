@@ -45,8 +45,6 @@ public class Calendar {
 		if (dayOfMonth == nDaysInMonth) {
 			dayOfMonth = 1;
 			if (month == 12) {
-				System.out.println(year);
-				System.out.println(dayCount);
 				dayCount = 1;
 				month = 1;
 				year++;
